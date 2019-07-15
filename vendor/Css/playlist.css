@@ -1,0 +1,439 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+input.edit_name:focus,input.edit_image:focus,.edit_mt:focus{
+    box-shadow: unset;
+}
+
+input.form-control.add_image {
+    box-shadow: unset;
+}
+
+textarea.form-control.add_mt {
+    box-shadow: unset;
+}
+
+i.fa.fa-check-circle-o {
+    float: left;
+    margin-top: 1px;
+    margin-right: 13px;
+    font-size: 24px;
+}
+
+img.img_bd {
+    width: 125px;
+    margin-bottom: 7px;
+}
+
+p.td {
+    font-size: 25px;
+    color: #65509E;
+    font-weight: bold;
+}
+
+.row.form_tenpl_edit {
+    margin-bottom: 15px;
+}
+
+.row.form_tenpl,.form_ha,.form_mt {
+    margin-bottom: 15px;
+}
+
+.row.submit {
+    margin-top: 15px;
+}
+.col-xs-9.col-sm-9.col-md-9.col-lg-9 {}
+
+
+
+._1playlist:hover .chinhsua {
+	opacity: 1;
+	visibility: visible;
+}
+
+._1playlist:hover .xoa {
+	opacity: 1;
+	visibility: visible;
+}
+
+._1playlist {
+	cursor: pointer;
+	margin-bottom: 17px;
+}
+
+._1playlist:hover .icon-play {
+	opacity: 1;
+	visibility: visible;
+}
+
+p.td {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.thempl {
+	float: right;
+}
+
+.td_pl {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.td_pl {
+	margin-top: 7px;
+}
+
+.xoa {
+	position: absolute;
+	top: 0;
+	right: 7%;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
+}
+
+.xoa i:hover {
+	color: red;
+}
+
+.xoa {}
+
+i.fa.fa-times {}
+
+.chinhsua {
+	position: absolute;
+	top: 0;
+	right: 15%;
+	font-size: 20px;
+	opacity: 0;
+	cursor: pointer;
+	visibility: hidden;
+	transition: 0.5s;
+}
+
+.chinhsua i:hover {
+	color: gray;
+}
+
+.icon-play {
+	position: absolute;
+	z-index: 1001;
+	top: 44%;
+	left: 50%;
+	/* margin: -24px 0 0 -24px; */
+	/* width: 48px; */
+	/* height: 48px; */
+	transform: translate(-50%,-50%);
+	font-size: 66px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+}
+
+.icon-play i {color: #65509E;}
+
+.col-xs-4.col-sm-4.col-md-4.col-lg-4._1playlist img {width: 210px;position: relative;}
+
+p.tdplaylist {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.row.row1 {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.anhtieude {margin-top: 35px;}
+
+.mynav{
+	background-color: #ffe6ff;
+}
+
+.myText{
+	color: #d9b3ff;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.mybutton{
+	color: white;
+	background-color: purple;
+	width: 100%;
+
+}
+
+.myText:hover{
+	color: #8080ff;
+	cursor: default;
+}
+
+a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.myCaption:hover{
+	text-decoration: none;
+}
+
+.myCaption{
+	text-align: center;
+}
+.captionText{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.chinhsua {
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 0px 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input.form-control.add_tpl {
+    box-shadow: unset;
+}
+
+
+
+.edit1{
+	margin: 16px 0px;
+}
+
+/* Set a style for all buttons */
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 0px 0px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+/* Center the image and position the close button */
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+
+img.avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+
+.container1 {
+	padding: 16px;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 10005; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	padding-top: 60px;
+}
+
+.modal-content {
+	/* background-color: #fefefe; */
+	/* margin: 5% auto 15% auto; */ /* 5% from the top, 15% from the bottom and centered */
+	/* border: 1px solid #888; */
+	/* width: 80%; */ /* Could be more or less, depending on screen size */
+	font-family: 'Nunito', sans-serif;
+}
+
+/* The Close Button (x) */
+.close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: red;
+	cursor: pointer;
+}
+.col-wrap {
+	display: table;
+	width: 100%;
+}
+
+.col {
+	display: table-cell;
+	padding: 1rem
+}
+
+.container.playlist_list {
+    min-height: 470px;
+}
+
+.error1 {
+    font-size: 12px;
+    color: red;
+}
+
+.error2 {
+    font-size: 12px;
+    color: red;
+}
+
+
+
+
+.themplthanhcong{
+    position: fixed;
+    background: #65509E;
+    color: white;
+    border-radius: 0;
+    width: 254px;
+    padding: 20px 15px;
+    z-index: 10004;
+    height: 65px;
+    transition: 0.4s;
+    opacity: 0;
+    transform: translateY(125px);
+    visibility: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    bottom: 31px;
+    right: 33px;
+    transition: 0.4s;
+}
+.xoaplthanhcong{
+    position: fixed;
+    background: #65509E;
+    color: white;
+    border-radius: 0;
+    width: 254px;
+    padding: 20px 15px;
+    z-index: 10004;
+    height: 65px;
+    transition: 0.4s;
+    opacity: 0;
+    transform: translateY(125px);
+    visibility: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    bottom: 31px;
+    right: 33px;
+    transition: 0.4s;
+}
+
+
+
+.chinhsuaplthanhcong{
+    position: fixed;
+    background: #65509E;
+    color: white;
+    border-radius: 0;
+    width: 270px;
+    padding: 20px 15px;
+    z-index: 10004;
+    height: 65px;
+    transition: 0.4s;
+    opacity: 0;
+    transform: translateY(175px);
+    visibility: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    bottom: 31px;
+    right: 33px;
+    transition: 0.4s;
+}
+
+.emptyplaylist{
+    position: fixed;
+    background: #201a2f;
+    color: white;
+    border-radius: 0;
+    width: 289px;
+    padding: 20px 15px;
+    z-index: 10004;
+    height: 65px;
+    /* transition: 0.4s; */
+    opacity: 0;
+    transform: translate(-50%,-175px);
+    visibility: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    transition: 0.4s;
+    top: 15px;
+    left: 50%;
+}
+
+.emptyplaylist.thanhcong{
+	opacity: 1;
+	visibility: visible;
+	transform: translate(-50%,0px);
+}
+
+
+
+.emptyplaylist i {
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+.themplthanhcong.thanhcong{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
+
+.chinhsuaplthanhcong.thanhcong{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
+
+.xoaplthanhcong.thanhcong{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
+
+

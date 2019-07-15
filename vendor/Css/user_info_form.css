@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+i.fa.fa-check-circle-o {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.card-text b {
+    float: left;
+}
+
+.container.info {
+    min-height: 400px;
+    margin-bottom: 15px;
+}
+
+span.fa.fa-eye {
+    margin-top: 9px;
+}
+
+span.fa.fa-eye-slash:focus {
+    outline: none;
+}
+
+span.fa.fa-eye:focus {
+    outline: none;
+}
+
+span.input-group-addon {
+    width: 38px;
+    text-align: center;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+i.fa.fa-pencil.csprofile {
+    cursor: pointer;
+}
+
+i.fa.fa-pencil.csprofile:hover {
+    color: #65509E;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.card-text.test {
+    height: 250px;
+}
+
+img.img-circle {
+    border-radius: 50%;
+}
+
+.span3.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.test input[type="file"] {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    height: 35px;
+}
+
+.phiaduoi {
+    position: absolute;
+    bottom: 0;
+    background: #00000080;
+    color: white;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.thongtin {
+    position: absolute;
+}
+
+.test {
+    width: 250px;
+    height: 160px;
+    vertical-align: top;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    /* background-color: #f7f7f7; */
+    /* border: 1px solid #dbdbdb; */
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.input_fullname:focus,.image_info:focus,.pass_old:focus,.pass_new:focus,.pass_re_new:focus{
+    box-shadow: unset!important;
+}
+
+.error1,.error2,.error3,.error4
+{
+    font-size: 12px;
+    color: red;
+}
+
+
+.chinhsuathongtinthanhcong{
+    position: fixed;
+    background: #65509E;
+    color: white;
+    border-radius: 0;
+    width: 272px;
+    padding: 20px 15px;
+    z-index: 10004;
+    height: 65px;
+    transition: 0.4s;
+    opacity: 0;
+    transform: translateY(175px);
+    visibility: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    bottom: 31px;
+    right: 33px;
+    transition: 0.4s;
+}
+
+.chinhsuathongtinthanhcong.thanhcong
+{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}

@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.dangkythanhcong.btn.btn-success {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 198px;
+    height: 62px;
+    transform: translateY(75px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.dangkythanhcong.btn.btn-success.thanhcong{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    border-radius: 0;
+    z-index: 10005;
+}
+
+.btn.btn-outline-success.btn_sex {
+    cursor: pointer;
+}
+
+label.form-check-label {
+    cursor: pointer;
+}
+
+.md-form.mb-5.md_sex {
+    margin-bottom: 5px!important;
+}
+
+i.fa.fa-venus-mars.prefix.grey-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+i.fa.fa-check-square-o.prefix.grey-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+i.fa.fa-id-card-o.prefix.grey-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input#form2 {
+    float: right;
+    border: none;
+    border-bottom: 1px solid #8080805c;
+    border-radius: 0;
+}
+
+i.fa.fa-key.prefix.grey-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+label {
+}
+
+label.error1,.error2,.error3,.error4,.error5,.error6,.error7 {
+    font-size: 12px;
+    color: red;
+}
+
+
+i.fa.fa-user.prefix.grey-text {
+    font-size: 28px;
+}
+
+input#form3,input#form4,input#form5,input#form5,input#form6,input#form7 {
+    float: right;
+    border: none;
+    border-bottom: 1px solid #8080805c;
+    border-radius: 0;
+}
+
+
+input#form3:focus,input#form4:focus,input#form5:focus,input#form6:focus,input#form7:focus {
+    /* border: none!important; */
+    outline: none!important;
+    box-shadow: none;
+    border-bottom: 3px solid #007BFF;
+}
+input#form2:focus {
+    /* border: none!important; */
+    outline: none!important;
+    box-shadow: none;
+    border-bottom: 3px solid #007BFF;
+}
+
+.mb-5{
+    margin-bottom: 0!important;
+    height: 100px;
+}
+
+

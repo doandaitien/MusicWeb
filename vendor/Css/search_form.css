@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.sokq .row {
+    color: #65509E;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.container.result_tk {
+    min-height: 500px;
+}
+.row.tdtk {
+    font-size: 25px;
+    font-weight: bold;
+    color: #65509E;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-bottom: 1px solid #65509E;
+}
+
+.kq_name_song:hover {color: #65509E;}
+i.fa.fa-info:hover {
+    color: #65509E;
+}
+
+i.fa.fa-download:hover {
+    color: #65509E;
+}
+
+i.fa.fa-plus:hover {
+    color: #65509E;
+}
+
+.lo2_play i.fa.fa-play-circle {
+    color: white!important;
+}
+
+.lo2_play {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ketqua_info {
+    font-size: 12px;
+    z-index: 5;
+}
+
+.layout2_ketqua.row {
+    opacity: 0;
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    padding: 11px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #8080801f;
+    background: #473e623d;
+    visibility: hidden;
+    /* transition: 0.4s; */
+}
+
+.ketqua_img img.img-responsive {
+    height: 100%;
+}
+
+.ketqua_img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout1_ketqua {
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    padding: 11px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #8080801f;
+}
+
+.one_ketqua {
+    height: 51px;
+    position: relative;
+    cursor: pointer;
+    /* margin: 12px 5px 12px 0px; */
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.one_ketqua:hover .layout2_ketqua {
+    opacity: 1;
+    visibility: visible;
+}
